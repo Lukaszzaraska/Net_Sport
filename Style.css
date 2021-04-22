@@ -7,6 +7,7 @@ body{
     display: grid;
     grid-template-rows:auto;
     grid-template-columns: 100%;
+    grid-row-start: auto;
 }
 *{
     box-sizing: border-box;
@@ -16,7 +17,7 @@ body{
 #logo{
     min-width: 200px;
     grid-row-start: 1;
-    margin-top:5px; 
+    margin-top:6px; 
     padding: 2px 40px 0px 40px;
     background-color: rgb(71, 70, 70);
 }
@@ -47,10 +48,10 @@ img{
     background-color: rgb(248, 248, 248);
     grid-row-start: 3;
     min-width: 200px;
-    padding: 2px 40px 0px 40px;
+    padding: 10px 40px 10px 40px;
 }
 .menu{
-    padding: 5px;
+    padding: 6px;
     background-color: rgb(78, 78, 78);
     grid-row: auto;
     font-size: 3vw;
@@ -58,21 +59,39 @@ img{
     color:rgb(255, 255, 255);
 }
 #mecz{
-    background-color: blueviolet;
+    background-color: rgb(70, 70, 70);
+    text-align: center;
+    color:white;
 }
 address{
-    background-color: chartreuse;
+    background-color: rgb(38, 184, 46);
 }
 #sponsor{
-    background-color: crimson;
+    padding: 0px 10px 10px 10px;
+    background-color: rgb(32, 32, 32);
+    min-height: 40px;
+    line-height: 50px;
 }
 h1,h2{
     margin: 0;
+    font-size: 6vw;
+}
+h3{
+    color: red;
+    font-size: 4.5vw;
+    text-align: left;
+}
+.foot{
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+    
 }
 .marg{
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
 }
 }
 
