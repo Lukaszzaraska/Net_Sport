@@ -17,7 +17,6 @@ body{
     min-width: 200px;
     grid-row-start: 1;
     margin-top:5px; 
-    text-align: center;
     padding: 2px 40px 0px 40px;
     background-color: rgb(71, 70, 70);
 }
@@ -26,23 +25,37 @@ img{
     width: 100%;
     display:grid;
     margin:auto;
-    max-height: 200px;
-    max-width: 570px;
     }
-
+.head_img{
+        max-height: 200px;
+        max-width: 570px;
+    }
+.slider_img{
+        max-height: 80px;
+        max-width: 200px;
+    }
+.menu_img{
+    max-height: 60px;
+    max-width: 60px;
+}
 #liga{
     grid-row-start: 2;
     min-width: 200px;
     background-color: rgb(70, 70, 70);
 }
 #slider{
-    background-color: rgb(29, 90, 221);
+    background-color: rgb(248, 248, 248);
     grid-row-start: 3;
     min-width: 200px;
+    padding: 2px 40px 0px 40px;
 }
 .menu{
-    background-color: aqua;
+    padding: 5px;
+    background-color: rgb(78, 78, 78);
     grid-row: auto;
+    font-size: 3vw;
+    min-width: 200px;
+    color:rgb(255, 255, 255);
 }
 #mecz{
     background-color: blueviolet;
