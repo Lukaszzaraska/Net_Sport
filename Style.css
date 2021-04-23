@@ -52,7 +52,8 @@ img{
     padding: 10px 40px 10px 40px;
 }
 .menu{
-    background-image: url("texture2.jpg");
+    background-image: url("tets.jpg");
+    background-size: cover;
     padding: 3px;
     background-color: rgb(78, 78, 78);
     grid-row: auto;
