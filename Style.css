@@ -124,10 +124,11 @@ h3{
 }
 #onas{
     display: none;
-    background-color: rgb(101, 105, 105);
+    background-color: rgb(59, 58, 58);
     min-width: 200px;
     padding: 5px;
-    font-size: 5vw;
+    font-size: 4.8vw;
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
 }
 #slideshow {
     width:100%;
@@ -136,7 +137,7 @@ h3{
 }
 
 .container {
-    width:200%; /* 300 x 4 */
+    width:200%; 
     position:relative;
     animation:slide 12s ease-in-out infinite;
 }
@@ -146,7 +147,14 @@ h3{
     height:100%;
     float:left;
 }
-
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateY(10%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 
 }
 @keyframes slide {
@@ -156,9 +164,10 @@ h3{
     70% {left:-100%;}
     100% {left:0;}
 }
-
-
+ul{
+    padding:revert;
 }
+
 
 @media screen and (min-width:320px) and (max-width:767px) and (orientation:landscape) {
     body{
