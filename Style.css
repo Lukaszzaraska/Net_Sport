@@ -178,11 +178,12 @@ textarea {
     font-size: 4.5vw;
     }
 #submit{
-background-color: #ffffff;
+color:white;
+background-color: #e05555;
 width:32vw;
-height: 6vw;
+height: 7vw;
 font-size: 4vw;
-border-radius: 10%;
+border-radius: 8%;
 }
 @keyframes slideInFromLeft {
     0% {
