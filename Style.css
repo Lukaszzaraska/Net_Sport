@@ -70,8 +70,9 @@ img{
     margin-top: 10px
 }
 address{
-    background-color: rgb(98, 107, 98);
+    background-color: rgb(216, 216, 216);
     min-width: 200px;
+    padding: 5px;
 }
 #sponsor{
     background-color: rgb(32, 32, 32);
@@ -96,11 +97,17 @@ h3{
 }
 .forms{
     font-size: 4vw;
+    padding: 5px;
 }
+
 .marg{
     margin-left: 6px;
     margin-right: 6px;
     margin-bottom: 6px;
+}
+label{
+    font-size: 4.5vw;
+    padding: 10px;
 }
 #aktualnosci{
     display: none;
@@ -146,6 +153,35 @@ h3{
     width:50%;
     height:100%;
     float:left;
+}
+input[type="text"],
+textarea {
+    padding-left: 6px;
+    width:40vw;
+    height: 6vw;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 4.5vw;
+    }
+input[type="textarea"],
+textarea {
+    padding-left: 6px;
+    width:80vw;
+    height: 15vw;
+    resize: none;
+    overflow: scroll;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 4.5vw;
+    }
+#submit{
+background-color: #ffffff;
+width:32vw;
+height: 6vw;
+font-size: 4vw;
+border-radius: 10%;
 }
 @keyframes slideInFromLeft {
     0% {
