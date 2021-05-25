@@ -340,10 +340,14 @@ a:visited{
         grid-row: 1;
     }
     footer{
+        
+        margin-left: 10px;
+        margin-right: 10px;
         grid-row: 3;
     }
     #mecz{
         position: sticky;
+        top:25%;
         grid-row: 2/3;
         grid-column: 2/3;
         grid-area: rightt;
@@ -351,10 +355,12 @@ a:visited{
         background-color: rgb(34 34 34);
         text-align: center;
         color:white;
-        margin-top: 10px;
+        margin-top: 5px;
         max-height:45vw;
     }
     #wraper_menu{
+        margin-top: 5px;
+        margin-bottom: 5px;
         grid-row: 1;
         grid-column: 1/2;
         grid-area: main;
@@ -420,13 +426,15 @@ a:visited{
         grid-area: footer;
         background-color: rgb(216, 216, 216);
         min-width: 100%;
-        padding: 5px;
+        padding: 10px;
+        
     }
     #sponsor{
         background-color: rgb(32, 32, 32);
         min-height: 40px;
         line-height: 50px;
         min-width: 200px;
+        
     }
     h1,h2{
         margin: 0;
@@ -453,6 +461,9 @@ a:visited{
         font-weight: bold;
         
     }
+    footer .marg{
+        margin: 0;
+    }
     .forms{
         font-size: 4vw;
         padding: 5px;
@@ -473,6 +484,7 @@ a:visited{
         margin-right: 6px;
         margin-bottom: 3px;
     }
+   
     label{
         font-size: 4.5vw;
         padding: 10px;
