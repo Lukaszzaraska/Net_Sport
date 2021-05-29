@@ -1,3 +1,5 @@
+window.scrollTo(0,0);
+
 function change(elm) {
     var naszaWarstwa = document.getElementById("aktualnosci");
     if ( elm.marked) {
