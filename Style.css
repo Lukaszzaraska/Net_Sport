@@ -292,12 +292,13 @@ a{
 }
 
 #onas ul {
-    padding-left: 3.6vw;
+    padding-left:5%;
 }
 #news{
     background-color: white;
     color: #000000;
     padding: 5px;
+    min-height: inherit;
 }
 .news_h1{
     font-size:6vw;
@@ -312,7 +313,7 @@ a{
     padding-bottom: 3px;
 }
 .news_main{
-    padding-top:10px;
+    padding-top:3vw;
     padding:5px;
 }
 .h2_news{
@@ -323,6 +324,9 @@ a{
 }
 .text_news{
     font-size:4vw;
+}
+#wraper_menu{
+    min-width: 200px;
 }
 @keyframes carousel {
     0% {
@@ -344,8 +348,12 @@ a{
         right: 200%;
     }
 }
-
-
+.min-height{
+    min-height: 200px;
+}
+.height-inherit{
+    min-height: inherit;
+}
 @font-face {
     font-family: Raleway;
     src: url('Relaway/static/Raleway-Regular.ttf');
@@ -453,15 +461,15 @@ a{
         grid-area: rightt;
         min-width: 100px;
         margin-top: 5px;
-       
+        max-height: 52vw;
     }
     .mecz_article {
         margin-bottom: 5px;
         margin-top: 5px;
     }
     #wraper_menu {
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: auto;
+        margin-bottom: auto;
         grid-row: 1;
         grid-column: 1/2;
         grid-area: main;
