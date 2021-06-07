@@ -647,6 +647,19 @@ main,footer{
 }
 @media screen and (min-width:1201px){
 
+#wrapper{
+ max-width: 1200px;
+ margin: auto;
+}    
+.field_menu{
+    align-items: center;
+    text-align: center;
+    justify-content: center;  
+    width: 100%;
+    font-size:45px;
+    color: white;
+  
+}
 #wraper_menu{
     display: none;
 }
@@ -655,7 +668,8 @@ address{
 }
 #main_menu{
     background-color: #333333;
-    
+    display: flex;
+    align-items: center;
     height: 6vw;
 }
 }
