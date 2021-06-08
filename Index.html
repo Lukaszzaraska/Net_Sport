@@ -15,7 +15,7 @@
     <title>Net-Sport</title>
 </head>
 
-<body>
+<body onload="always()">
 
     <div id="wrapper">
         <header>
@@ -38,24 +38,24 @@
         <main>
             <div id="main_menu" class="marg">
                 <div class="field_menu">
-                    Strona główna
+                    <p>Strona główna</p>
                 </div>
-                <div class="field_menu">
-                    Archiwum
+                <div class="field_menu" onclick="change22(this)">
+                    <p class="middle">Archiwum</p>
                 </div>
-                <div class="field_menu">
-                    Terminarz
+                <div class="field_menu" onclick="change33(this)">
+                    <p class="middle">Terminarz</p>
                 </div>
-                <div class="field_menu">
-                   Wyniki
+                <div class="field_menu" onclick="change44(this)">
+                    <p class="middle">Wyniki</p>
                 </div>
-                <div class="field_menu">
-                   O nas
+                <div class="field_menu" onclick="change55(this)">
+                    <p class="middle">O nas</p>
                 </div>
             </div>
             <div id="wraper_menu">
                 <div class="menu marg">
-                    <img src="aktualnosci.png" alt="menu" onclick="change(this)">
+                    <img src="aktualnosci.png" alt="menu" class="out_size" onclick="change(this)">
                     <div id="aktualnosci">
                         <a href="aktualnosci_page_1.html">
                             <div class="article">
@@ -73,39 +73,39 @@
                     </div>
                 </div>
                 <a href="aktualnosci_page_2.html">
-                <div class="article">
-                    <div class="main_article">
-                        <img src="aktualnosci_1.jpg" alt="img_team">
-                    </div>
-                    <div class="title_article">
-                        <span>
-                            <h3> I Mistrzostwa Dwójek Siatkarskich</h3>
-                        </span>
-                        <span>
-                            <h4>Dzielnicy VIII Dębniki</h4>
-                        </span>
-                    </a>
-                    </div>
-                </div>
-                <a href="aktualnosci_page_3.html">
-                <div class="article">
-                    <div class="main_article">
-                        <img src="Aktualnosci_zespol.jpg" alt="img_team">
-                    </div>
-                    <div class="title_article">
-                        <span>
-                            <h3>MAMY MISZTRZA</h3>
-                        </span>
-                        <span>
-                            <h4>APTIV MISTRZAMI 16. EDYCJI LIGI AMATORÓW SIATKÓWKI</h4>
-                        </span>
-                        </a>
-                    </div>
-                </div>
+                    <div class="article">
+                        <div class="main_article">
+                            <img src="aktualnosci_1.jpg" alt="img_team">
+                        </div>
+                        <div class="title_article">
+                            <span>
+                                <h3> I Mistrzostwa Dwójek Siatkarskich</h3>
+                            </span>
+                            <span>
+                                <h4>Dzielnicy VIII Dębniki</h4>
+                            </span>
+                </a>
             </div>
     </div>
+    <a href="aktualnosci_page_3.html">
+        <div class="article">
+            <div class="main_article">
+                <img src="Aktualnosci_zespol.jpg" alt="img_team">
+            </div>
+            <div class="title_article">
+                <span>
+                    <h3>MAMY MISZTRZA</h3>
+                </span>
+                <span>
+                    <h4>APTIV MISTRZAMI 16. EDYCJI LIGI AMATORÓW SIATKÓWKI</h4>
+                </span>
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
     <div class="menu marg">
-        <img src="archiwum.png" alt="menu" onclick="change2(this)">
+        <img src="archiwum.png" alt="menu" class="out_size" onclick="change2(this)">
         <div id="archiwum">
             <div class="flex_content">
 
@@ -147,7 +147,7 @@
         </div>
     </div>
     <div class="menu marg">
-        <img src="terminarz.png" alt="menu" onclick="change3(this)">
+        <img src="terminarz.png" alt="menu" class="out_size" onclick="change3(this)">
         <div id="terminarz">
             <span class="column"><a
                     href="https://drive.google.com/file/d/1LlWl79JohcmzrQLjk22TNVWLI8RH3xdr/view?usp=sharing">Terminarz
@@ -155,7 +155,7 @@
         </div>
     </div>
     <div class="menu marg">
-        <img src="wyniki.png" alt="menu" onclick="change4(this)">
+        <img src="wyniki.png" alt="menu" class="out_size" onclick="change4(this)">
         <div id="wyniki">
             <div class="flex_content">
                 <ul>
@@ -242,7 +242,7 @@
         </div>
     </div>
     <div class="menu marg">
-        <img src="onas.png" alt="menu" onclick="change5(this)">
+        <img src="onas.png" alt="menu" class="out_size" onclick="change5(this)">
         <div id="onas">
             <p>Grupa, która dała początki Lidze Amatorów Siatkówki NET-SPORT to 4 osoby, miłośnicy
                 siatkówki,
