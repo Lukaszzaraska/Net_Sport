@@ -126,3 +126,42 @@ function change(elm) {
      onas.style.display="block";
   }
  }
+ function zmiana(x){
+switch(x){
+   case 1:
+         aktualnosci.style.display="none";
+         archiwum.style.display = "block";
+         terminarz.style.display="none";
+         wyniki.style.display="none";
+         onas.style.display="none";
+   break;
+   case 2:
+         aktualnosci.style.display="none";
+         archiwum.style.display = "none";
+         terminarz.style.display="block";
+         wyniki.style.display="none";
+         onas.style.display="none";
+   break;
+   case 3:
+         aktualnosci.style.display="none";
+         archiwum.style.display = "none";
+         terminarz.style.display="none";
+         wyniki.style.display="block";
+         onas.style.display="none";
+   break;
+   case 4:
+         aktualnosci.style.display="none";
+         archiwum.style.display = "none";
+         terminarz.style.display="none";
+         wyniki.style.display="none";
+         onas.style.display="block";
+   break;
+   case 5:
+         aktualnosci.style.display="block";
+         archiwum.style.display = "none";
+         terminarz.style.display="none";
+         wyniki.style.display="none";
+         onas.style.display="none";
+   break;
+}
+ }
