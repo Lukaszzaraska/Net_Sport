@@ -419,6 +419,9 @@ a {
     h1, h2 {
         font-size: 9vw;
     }
+    address h2{
+        font-size: 6vw;
+    }
     .right_span {
         text-align: right;
         width: 40%;
@@ -568,7 +571,7 @@ a {
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
-    main, footer {
+  /*  main, footer {
         margin-left: auto;
         margin-right: auto;
         max-width: 850px;
@@ -642,7 +645,128 @@ a {
     }
     hr {
         display: none;
-    }
+    }*/
+    #wrapper {
+        width: 100%;
+            margin: auto;
+        }
+        .field_menu {
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            font-size: 30px;
+            color: white;
+            font-family: Raleway;
+        }
+        .field_menu:hover {
+            background-color: #4e534e;
+        }
+        #aktualnosci {
+            display: block;
+        }
+        .out_size {
+            display: none;
+        }
+        .forms {
+           font-size: 30px;
+        }
+        address h2{
+            font-size: 40px;
+        }
+        .middle {
+            margin-top: 25px;
+        }
+        input[type="email"], textarea {
+            padding-left: 6px;
+            margin-left: 10px;
+            width: 80vw;
+            height: 6.5vw;
+            font-size: 4.5vw;
+        }
+        
+        input[type="textarea"], textarea {
+            padding-left: 6px;
+            width: 80vw;
+            height: 15vw;
+            font-size: 4.5vw;
+            margin-left: 10px;
+        }
+        #submit {
+            margin-left: 10px;
+            width: 24vw;
+            height: 5vw;
+            font-size: 3vw;
+            margin-bottom: 5px;
+        }
+        .menu {
+            padding: 0;
+        }
+        #main_menu {
+            background-color: #252323;
+            display: flex;
+            align-items: center;
+            height: 80px;
+        }
+        #archiwum{
+            max-height:none;
+        }
+        #wyniki{
+            max-height:none;
+            font-size: 33px;
+        }
+        #onas{
+            font-size:29px;
+        }
+        #terminarz{
+            font-size: 33px;
+            min-height: 100px;
+            padding-top: 20px;
+        }
+        #aktualnosci h3 {
+            font-size: 2.5vw;
+        }
+        #aktualnosci h4 {
+            font-size: 2.8vw;
+        }
+        hr{
+            display: none;
+        }
+        #mecz h3{
+            font-size:29px;
+        }
+        .right_span{
+            font-size: 65px;
+        }
+        .left_span{
+            font-size: 65px;
+            
+        }
+        .row_width{
+            font-size: 60px; 
+            
+        }
+        .news_date{
+            font-size: 20px;
+        }
+        .news_h1{
+            font-size: 60px;
+        }
+        .h2_news{
+            font-size: 60px;
+        }
+        .text_news{
+            font-size: 42px;
+        }
+        .mecz_article h4{
+            font-size: 23px;
+            padding-top: 2px;
+        }
+        #sponsor{
+            font-size: 30px;
+        }
+    
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
@@ -670,7 +794,7 @@ a {
         display: none;
     }
     address {
-        display: none;
+        display:block;
     }
     .middle {
         margin-top: 25px;
@@ -734,12 +858,57 @@ a {
     .text_news{
         font-size: 42px;
     }
+    input[type="email"], textarea {
+        padding-left: 6px;
+        margin-left: 10px;
+        width: 900px;
+        height: 100px;
+        font-size: 50px;
+    }
+    
+    input[type="textarea"], textarea {
+        padding-left: 6px;
+        width: 900px;
+        height: 300px;
+        font-size: 35px;
+        margin-left: 10px;
+    }
+    #submit {
+        margin-left: 10px;
+        width: 300px;
+        height: 80px;
+        font-size: 50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .forms ul {
+       font-size: 50px;
+    }
+    address h2{
+        font-size: 70px;
+    }
+    .mecz_article h4{
+        font-size: 25px;
+        padding-top: 5px;
+    }
+    #sponsor{
+        font-size: 30px;
+    }
 }
 
 @media screen and (min-width:1201px) {
     #wrapper {
         max-width: 1200px;
         margin: auto;
+    }
+    main{
+        max-width: 1200px;
+    }
+    header{
+        max-width: 1200px;
+    }
+    footer{
+        max-width: 1200px;
     }
     .field_menu {
         align-items: center;
@@ -755,13 +924,29 @@ a {
         background-color: #4e534e;
     }
     #aktualnosci {
-        display: block;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: #000000;
+    }
+    .article{
+        width: 48%;
+        background-color: #333333;
+      
+    }
+    .article:hover{
+        filter: brightness(1.3);
     }
     .out_size {
         display: none;
     }
+    #wraper_menu{
+        display: flex;
+        flex-direction: column;
+        
+    }
     address {
-        display: none;
+        display: block;
     }
     .middle {
         margin-top: 25px;
@@ -777,11 +962,11 @@ a {
     }
     #archiwum{
         max-height:none;
-        font-size: 37px;
+        font-size: 50px;
     }
     #wyniki{
         max-height:none;
-        font-size: 36px;
+        font-size: 43px;
     }
     #onas{
         font-size: 33px;
@@ -824,5 +1009,44 @@ a {
     }
     .text_news{
         font-size: 45px;
+    }
+    input[type="email"], textarea {
+        padding-left: 6px;
+        margin-left: 10px;
+        width: 900px;
+        height: 100px;
+        font-size: 50px;
+    }
+    
+    input[type="textarea"], textarea {
+        padding-left: 6px;
+        width: 900px;
+        height: 300px;
+        font-size: 35px;
+        margin-left: 10px;
+    }
+    #submit {
+        margin-left: 10px;
+        width: 300px;
+        height: 70px;
+        font-size: 50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .forms ul {
+       font-size: 50px;
+    }
+    address h2{
+        font-size: 70px;
+    }
+    .mecz_article h4{
+        font-size: 25px;
+        padding-top: 5px;
+    }
+    #formss label{
+        font-size: 60px;
+    }
+    #sponsor{
+        font-size: 30px;
     }
 }
