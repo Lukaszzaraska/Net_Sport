@@ -1,11 +1,5 @@
 <!DOCTYPE html>
-<!-- TODO
-- Zmienic animacje ONAS
-- Zmienic JS
-Ładować danego JS zależnie od view porta
--->
 <html lang="pl">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +19,6 @@
             </div>
             <div id="liga" class="marg ">
                 <img src="baner_bez.png" alt="baner" class="head_img">
-                <!-- 16.edycję Ligi Amatorów Siatkówki objął patronatem Wiceprzewodniczący Rady Miasta Krakowa Rafał Komarewicz  -->
             </div>
             <div id="slider" class="marg">
                 <div id="slideshow">
@@ -38,10 +31,10 @@
         </header>
         <main>
             <div id="main_menu" class="marg">
-                <div class="field_menu" onclick="WidthChange(true,5)">
+                <div class="field_menu" onclick="zmiana(5)">
                     <p>Strona główna</p>
                 </div>
-                <div class="field_menu" onclick="WidthChange(true,1)">
+                <div class="field_menu" onclick="zmiana(1)">
                     <p class="middle">Archiwum</p>
                 </div>
                 <div class="field_menu" onclick="zmiana(2)">
@@ -98,23 +91,23 @@
                     <h3>MAMY MISZTRZA</h3>
                 </span>
                 <span>
-                    <h4>APTIV MISTRZAMI 16. Edycji ligi amatorów siatkówki</h4>
+                    <h4>APTIV MISTRZAMI 16. Edycji</h4>
                 </span>
     </a>
     </div>
 
     </div>
-    <a href="aktualnosci_page_2.html">
+    <a href="aktualnosci_page_4.html">
         <div class="article">
             <div class="main_article">
-                <img src="aktualnosci_1.jpg" alt="img_team">
+                <img src="aktualnosci_4.jpg" alt="img_team">
             </div>
             <div class="title_article">
                 <span>
-                    <h3> I Mistrzostwa Dwójek Siatkarskich</h3>
+                    <h3> Oficjany Patronat ligi</h3>
                 </span>
                 <span>
-                    <h4>Dzielnicy VIII Dębniki</h4>
+                    <h4>Objął Jacek Komarewicz</h4>
                 </span>
     </a>
     </div>
@@ -129,38 +122,38 @@
             <div class="flex_content">
 
                 <div class="row">
-                    <span class="column"><a href="Sezon_1.html"> Sezon 1</a></span><br>
-                    <span class="column"><a href="Sezon_2.html">Sezon 2</a></span><br>
-                    <span class="column"><a href="Sezon_1.html">Sezon 3</a></span><br>
+                    <span class="column"><a href="Sezon_1.html"> Sezon 1</a></span>
+                    <span class="column"><a href="Sezon_2.html">Sezon 2</a></span>
+                    <span class="column"><a href="Sezon_1.html">Sezon 3</a></span>
 
                 </div>
                 <div class="row">
-                    <span class="column"><a href="Sezon_2.html">Sezon 4</a></span><br>
-                    <span class="column"><a href="Sezon_1.html">Sezon 5</a></span><br>
-                    <span class="column"><a href="Sezon_2.html">Sezon 6</a></span><br>
+                    <span class="column"><a href="Sezon_2.html">Sezon 4</a></span>
+                    <span class="column"><a href="Sezon_1.html">Sezon 5</a></span>
+                    <span class="column"><a href="Sezon_2.html">Sezon 6</a></span>
 
 
                 </div>
 
                 <div class="row">
-                    <span class="column"><a href="Sezon_1.html">Sezon 7</a></span><br>
-                    <span class="column"><a href="Sezon_2.html">Sezon 8</a></span><br>
-                    <span class="column"><a href="Sezon_1.html">Sezon 9</a></span><br>
+                    <span class="column"><a href="Sezon_1.html">Sezon 7</a></span>
+                    <span class="column"><a href="Sezon_2.html">Sezon 8</a></span>
+                    <span class="column"><a href="Sezon_1.html">Sezon 9</a></span>
 
                 </div>
                 <div class="row">
-                    <span class="column"><a href="Sezon_2.html">Sezon 10</a></span><br>
-                    <span class="column"><a href="Sezon_1.html">Sezon 11</a></span><br>
-                    <span class="column"><a href="Sezon_2.html">Sezon 12</a></span><br>
+                    <span class="column"><a href="Sezon_2.html">Sezon 10</a></span>
+                    <span class="column"><a href="Sezon_1.html">Sezon 11</a></span>
+                    <span class="column"><a href="Sezon_2.html">Sezon 12</a></span>
                 </div>
                 <div class="row">
-                    <span class="column"><a href="Sezon_1.html">Sezon 13</a></span><br>
-                    <span class="column"><a href="Sezon_2.html">Sezon 14</a></span><br>
-                    <span class="column"><a href="Sezon_1.html">Sezon 15</a></span><br>
+                    <span class="column"><a href="Sezon_1.html">Sezon 13</a></span>
+                    <span class="column"><a href="Sezon_2.html">Sezon 14</a></span>
+                    <span class="column"><a href="Sezon_1.html">Sezon 15</a></span>
 
                 </div>
                 <div class="row">
-                    <span class="column"><a href="Sezon_2.html">Sezon 16</a></span><br>
+                    <span class="column"><a href="Sezon_2.html">Sezon 16</a></span>
                 </div>
             </div>
         </div>
@@ -263,7 +256,7 @@
     <div class="menu marg">
         <img src="onas.png" alt="menu" class="out_size" onclick="change5(this)">
         <div id="onas">
-            <p>Grupa, która dała początki Lidze Amatorów Siatkówki NET-SPORT to 4 osoby, miłośnicy
+            <p class="new_br">Grupa, która dała początki Lidze Amatorów Siatkówki NET-SPORT to 4 osoby, miłośnicy
                 siatkówki,
                 uprawiający tę dyscyplinę nieprzerwanie od 1990 roku. Trzech z nich Piotr Zaraska, Rafał
                 Majewski i
@@ -276,8 +269,8 @@
                 obowiązki
                 uniemożliwiają rozgrywanie meczy bez z góry ustalonego kalendarza, bez terminarza
                 wybiegającego
-                kilka tygodni w przód.</p><br>
-            <p>
+                kilka tygodni w przód.</p>
+            <p class="new_br">
                 Zupełnie przypadkowo podczas uczestnictwa w szkoleniu narciarskim we Włoszech w
                 2002 roku Piotrek poznał zawodników grających w amatorskich ligach siatkówki w
                 Warszawie. Wspólne rozmowy doprowadziły do konstruktywnego wniosku „jeżeli nie
@@ -289,39 +282,39 @@
                 się od razu jedną z najważniejszych osób w składzie czteroosobowej grupy
                 organizatorów Ligi.
             </p>
-            <p>
+            <p class="new_br">
                 Najważniejsze założenia, które od początku przyświecały organizatorom i przetrwały aż do
                 dnia
                 dzisiejszego to:
-            </p><br>
-            <ul>
+            </p>
+            <ul class="new_br">
                 <li>Terminarz ułożony “z góry” na cały sezon, bez możliwości zmiany terminu meczu.</li>
                 <li>Mecze rozgrywane do trzech wygranych setów.</li>
                 <li>Wysoki poziom sędziowania.</li>
-            </ul><br>
-            <p>Sędziowanie zostało powierzone Aleksandrowi Muzykowi posiadającemu pierwsza klasę
+            </ul>
+            <p class="new_br">Sędziowanie zostało powierzone Aleksandrowi Muzykowi posiadającemu pierwsza klasę
                 sędziowską PZPS. Wybór okazał się bardzo trafny, ponieważ sędziowanie w wykonaniu
                 Olka to jeden z największych atutów Ligi Amatorów Siatkówki Net Sport.
-                A podkreślają to rokrocznie sami zawodnicy.</p><br>
-            <p>
+                A podkreślają to rokrocznie sami zawodnicy.</p>
+            <p class="new_br">
                 Liga Amatorów Siatkówki NET-SPORT to rozgrywki dla grup prywatnych, firm oraz
                 instytucji, które czują zamiłowanie do tej dyscypliny sportu, a także do
                 aktywnego spędzania wolnego czasu.
-            </p><br>
-            <p>Ligę Amatorów Siatkówki NET-SPORT tworzą drużyny a właściwie zawodnicy, którzy
-                budują atmosferę ligi i kreują poziom sportowej rywalizacji.</p><br>
-            <p><b>Mecze rozgrywamy w SP nr 53 przy ul. Skośnej.</b></p><br>
-            <p>
+            </p>
+            <p class="new_br">Ligę Amatorów Siatkówki NET-SPORT tworzą drużyny a właściwie zawodnicy, którzy
+                budują atmosferę ligi i kreują poziom sportowej rywalizacji.</p>
+            <p class="new_br"><b>Mecze rozgrywamy w SP nr 53 przy ul. Skośnej.</b></p>
+            <p class="new_br">
                 Wszystkie elementy organizacji rozgrywek jak regulaminy, sędziowanie oraz sprzęt do
                 przeprowadzenia zawodów zapewniają organizatorzy. Staramy się trzymać zasady „gramy w
                 amatorskiej lidze ale czujemy się jak zawodowcy”.
-            </p><br>
-            <p>Rozegrane do tej pory edycje naszej Ligi zakończyły się sukcesem organizacyjnym oraz
+            </p>
+            <p class="new_br">Rozegrane do tej pory edycje naszej Ligi zakończyły się sukcesem organizacyjnym oraz
                 sportowym.
                 Zapewne w kolejnych latach dojdą nowe zespoły (na co bardzo liczymy), które swą obecnością
                 podniosą
-                poziom sportowej rywalizacji oraz wzbogacą atmosferę rozgrywek.</p><br>
-            <p><b>Zachęcamy abyś został zawodnikiem, kibicem lub sponsorem<br>
+                poziom sportowej rywalizacji oraz wzbogacą atmosferę rozgrywek.</p>
+            <p class="new_br"><b>Zachęcamy abyś został zawodnikiem, kibicem lub sponsorem
                     Ligi Amatorów Siatkówki NET-SPORT.</b></p>
         </div>
     </div>
@@ -333,11 +326,11 @@
             <h4>24.04.2021 | 16:00</h4>
             <hr>
             <div class="flex_content">
-                <h2 class="row">
+                <h2 class="row new_br">
                     <span class="column right_span">Wisła</span>
                     <span class="row_width">VS</span>
                     <span class="column left_span">Cracovia</span>
-                </h2><br>
+                </h2>
             </div>
             <hr>
         </div>
@@ -345,12 +338,12 @@
         <div class="mecz_article">
             <h4>25.04.2021 | 19:00</h4>
             <hr>
-            <div class="flex_content">
+            <div class="flex_content new_br">
                 <h2 class="row">
                     <span class="column right_span">Węgiel</span>
                     <span class="row_width">VS</span>
                     <span class="column left_span">Zaksa</span>
-                </h2><br>
+                </h2>
             </div>
         </div>
     </div>
@@ -368,10 +361,10 @@
                 </ul>
             </span>
             <div id="formss">
-                <form action="mailto:test@interia.pl" method="post">
-                    <br>
-                    <label> Twój adres e-mail:</label><br> <input type="email" name="email" /><br><br>
-                    <label>Wiadomość:</label><br> <textarea name="tresc" maxlength="150"></textarea>
+                <form action="mailto:test@interia.pl" method="post" class="new_br">
+                    <
+                    <label class="new_br"> Twój adres e-mail:</label> <input type="email" name="email" class="new_br"/>
+                    <label class="new_br">Wiadomość:</label> <textarea name="tresc" maxlength="150"></textarea>
                     <input id="submit" type="submit" value="Wyślij teraz!">
                 </form>
             </div>

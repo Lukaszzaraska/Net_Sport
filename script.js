@@ -7,6 +7,49 @@ function always(){
    var onas = document.getElementById("onas");
 }
 
+   function zmiana(x){
+      switch(x){
+         case 1:
+               aktualnosci.style.display="none";
+               archiwum.style.display = "block";
+               terminarz.style.display="none";
+               wyniki.style.display="none";
+               onas.style.display="none";
+         break;
+         case 2:
+               aktualnosci.style.display="none";
+               archiwum.style.display = "none";
+               terminarz.style.display="block";
+               wyniki.style.display="none";
+               onas.style.display="none";
+         break;
+         case 3:
+               aktualnosci.style.display="none";
+               archiwum.style.display = "none";
+               terminarz.style.display="none";
+               wyniki.style.display="block";
+               onas.style.display="none";
+         break;
+         case 4:
+               aktualnosci.style.display="none";
+               archiwum.style.display = "none";
+               terminarz.style.display="none";
+               wyniki.style.display="none";
+               onas.style.display="block";
+         break;
+         case 5:
+               aktualnosci.style.display="flex";
+               archiwum.style.display = "none";
+               terminarz.style.display="none";
+               wyniki.style.display="none";
+               onas.style.display="none";
+         break;
+      }
+       }
+   
+       
+   
+
 
 function change(elm) {
     let naszaWarstwa = document.getElementById("aktualnosci");
@@ -70,98 +113,9 @@ function change(elm) {
    }
   }
   
-  function change22(elm) {
-   if ( elm.marked) {
-     elm.marked = false;
-     aktualnosci.style.display="block";
-     archiwum.style.display = "none";
-  } else {
-     elm.marked = true;
-     aktualnosci.style.display="none";
-     archiwum.style.display = "block";
-     terminarz.style.display="none";
-     wyniki.style.display="none";
-     onas.style.display="none";
-  }
- }
- function change33(elm) {
-   if ( elm.marked) {
-     elm.marked = false;
-     aktualnosci.style.display="block";
-     terminarz.style.display = "none";
-  } else {
-     elm.marked = true;
-     aktualnosci.style.display="none";
-     archiwum.style.display = "none";
-     terminarz.style.display="block";
-     wyniki.style.display="none";
-     onas.style.display="none";
-  }
- }
- function change44(elm) {
-   if ( elm.marked) {
-     elm.marked = false;
-     aktualnosci.style.display="block";
-     wyniki.style.display = "none";
-  } else {
-     elm.marked = true;
-     aktualnosci.style.display="none";
-     archiwum.style.display = "none";
-     terminarz.style.display="none";
-     wyniki.style.display="block";
-     onas.style.display="none";
-  }
- }
- function change55(elm) {
-   if ( elm.marked) {
-     elm.marked = false;
-     aktualnosci.style.display="block";
-     onas.style.display = "none";
-  } else {
-     elm.marked = true;
-     aktualnosci.style.display="none";
-     archiwum.style.display = "none";
-     terminarz.style.display="none";
-     wyniki.style.display="none";
-     onas.style.display="block";
-  }
- }
- function zmiana(x){
-switch(x){
-   case 1:
-         aktualnosci.style.display="none";
-         archiwum.style.display = "block";
-         terminarz.style.display="none";
-         wyniki.style.display="none";
-         onas.style.display="none";
-   break;
-   case 2:
-         aktualnosci.style.display="none";
-         archiwum.style.display = "none";
-         terminarz.style.display="block";
-         wyniki.style.display="none";
-         onas.style.display="none";
-   break;
-   case 3:
-         aktualnosci.style.display="none";
-         archiwum.style.display = "none";
-         terminarz.style.display="none";
-         wyniki.style.display="block";
-         onas.style.display="none";
-   break;
-   case 4:
-         aktualnosci.style.display="none";
-         archiwum.style.display = "none";
-         terminarz.style.display="none";
-         wyniki.style.display="none";
-         onas.style.display="block";
-   break;
-   case 5:
-         aktualnosci.style.display="block";
-         archiwum.style.display = "none";
-         terminarz.style.display="none";
-         wyniki.style.display="none";
-         onas.style.display="none";
-   break;
-}
- }
+  
+ 
+     
+   
+ 
+

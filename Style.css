@@ -5,7 +5,9 @@ html, body {
     font-family: sans-serif;
     background-color: rgb(0, 0, 0);
 }
-
+.new_br{
+    padding-bottom: 20px;
+}
 span.column a::before {
     content: "\25CF  ";
 }
@@ -140,6 +142,7 @@ label {
 #aktualnosci {
     display: none;
     min-width: 200px;
+    flex-direction: column;
 }
 
 .main_article {
@@ -789,6 +792,7 @@ a {
     }
     #aktualnosci {
         display: block;
+    
     }
     .out_size {
         display: none;
@@ -928,6 +932,7 @@ a {
         justify-content: space-evenly;
         flex-wrap: wrap;
         background-color: #000000;
+        flex-direction: row;
     }
     .article{
         width: 48%;
