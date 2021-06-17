@@ -755,7 +755,7 @@ a {
             font-size: 20px;
         }
         .news_h1{
-            font-size: 60px;
+            font-size: 50px;
         }
         .h2_news{
             font-size: 60px;
@@ -1048,6 +1048,7 @@ a {
     }
     address h2{
         font-size: 70px;
+        padding-top: 10px;
     }
     .mecz_article h4{
         font-size: 25px;
